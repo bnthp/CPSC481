@@ -1,0 +1,355 @@
+body {
+  font-family: 'Lora', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  color: black;
+  background-color: white;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Cabin', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  margin: 0 0 35px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.question {
+  color: #FFFFFF;
+  background-color: #ee3233;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: auto;
+  margin-bottom: 10px;
+  display: table;
+}
+
+#q2 .question {
+  /* background-color: transparent !important; */
+  background-color: rgba(162,35,35,0.8);
+}
+
+/* h1 .question {
+  margin-bottom: -5px;
+} */
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0 0 25px;
+  text-indent: 20px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+@media (min-width: 768px) {
+  p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin: 0 0 35px;
+  }
+}
+
+a {
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  color: #ee3233;
+}
+
+a:focus, a:hover {
+  text-decoration: none;
+  color: #ae0000;
+}
+
+#mainNav {
+  font-family: 'Cabin', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  margin-bottom: 0;
+  text-transform: uppercase;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  background-color: black;
+}
+
+#mainNav .navbar-toggler {
+  font-size: 14px;
+  padding: 11px;
+  color: white;
+  border: 1px solid white;
+}
+
+#mainNav .navbar-brand {
+  font-weight: 700;
+}
+
+#mainNav a {
+  color: white;
+}
+
+#mainNav .navbar-nav .nav-item {
+  -webkit-transition: background 0.3s ease-in-out;
+  -moz-transition: background 0.3s ease-in-out;
+  transition: background 0.3s ease-in-out;
+}
+
+#mainNav .navbar-nav .nav-item:hover {
+  color: fade(white, 80%);
+  outline: none;
+  background-color: transparent;
+}
+
+#mainNav .navbar-nav .nav-item:active, #mainNav .navbar-nav .nav-item:focus {
+  outline: none;
+  background-color: transparent;
+}
+
+@media (min-width: 992px) {
+  #mainNav {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    -webkit-transition: background 0.3s ease-in-out, padding-top 0.3s ease-in-out, padding-bottom 0.3s;
+    -moz-transition: background 0.3s ease-in-out, padding-top 0.3s ease-in-out, padding-bottom 0.3s;
+    transition: background 0.3s ease-in-out, padding-top 0.3s ease-in-out, padding-bottom 0.3s;
+    letter-spacing: 1px;
+    border-bottom: none;
+    background: transparent;
+    /* opacity: 0.0; */
+    visibility: hidden;
+  }
+  #mainNav.navbar-shrink {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    background: black;
+    /* opacity: 1.0; */
+    visibility: visible;
+  }
+  #mainNav .nav-link.active {
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+  #mainNav .nav-link.active:hover {
+    color: white;
+  }
+}
+
+.masthead {
+  display: table;
+  width: 100%;
+  height: auto;
+  padding: 200px 0;
+  text-align: center;
+  color: #000;
+  background: url("../img/header.jpg") no-repeat bottom center scroll;
+  background-color: black;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.masthead .intro-body {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.masthead .intro-body .brand-heading {
+  font-size: 50px;
+}
+
+.masthead .intro-body .intro-text {
+  font-size: 18px;
+}
+
+@media (min-width: 768px) {
+  .masthead {
+    height: 100%;
+    padding: 0;
+  }
+  .masthead .intro-body .brand-heading {
+    margin-top: 70px;
+    font-size: 60px;
+    letter-spacing: 5px;
+  }
+  .masthead .intro-body .intro-text {
+    font-size: 22px;
+  }
+}
+
+.btn-circle {
+  font-size: 26px;
+  width: 55px;
+  height: 55px;
+  margin-top: 15px;
+  line-height: 45px;
+  -webkit-transition: background 0.3s ease-in-out;
+  -moz-transition: background 0.3s ease-in-out;
+  transition: background 0.3s ease-in-out;
+  color: #000;
+  border: 2px solid #000;
+  border-radius: 100% !important;
+  background: transparent;
+}
+
+.btn-circle:focus, .btn-circle:hover {
+  color: white;
+  outline: none;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.content-section {
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
+.q2-section {
+  color: white;
+  background: url("../img/bg trump.png") no-repeat center center scroll;
+  background-color: black;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.conclusion-section {
+  color: white;
+  background: url("../img/bg dt vs hc.png") no-repeat center center scroll;
+  background-color: black;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+
+@media (min-width: 992px) {
+  .content-section {
+    padding-top: 200px;
+    padding-bottom: 200px;
+  }
+  #map {
+    height: 350px;
+  }
+}
+
+.btn {
+  font-family: 'Cabin', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  text-transform: uppercase;
+  border-radius: 0;
+}
+
+.btn-default {
+  color: #ae0000;
+  border: 1px solid #ae0000;
+  background-color: transparent;
+}
+
+.btn-default:focus, .btn-default:hover {
+  color: #fff;
+  border: 1px solid #ae0000;
+  outline: none;
+  background-color: #ae0000;
+}
+
+.btn-small {
+  font-size: 0.8em;
+  margin-top: 10px;
+}
+
+ul.banner-social-buttons {
+  margin-top: 0;
+}
+
+@media (max-width: 1199px) {
+  ul.banner-social-buttons {
+    margin-top: 15px;
+  }
+}
+
+@media (max-width: 767px) {
+  ul.banner-social-buttons li {
+    display: block;
+    margin-bottom: 20px;
+    padding: 0;
+  }
+  ul.banner-social-buttons li:last-child {
+    margin-bottom: 0;
+  }
+}
+
+footer {
+  padding: 50px 0;
+}
+
+footer p {
+  font-size: 14px;
+  margin: 0;
+}
+
+::-moz-selection {
+  background: #ae0000;
+  background: rgba(174, 0, 0, 0.8);
+  text-shadow: none;
+  color: #fff;
+}
+
+::selection {
+  background: #ae0000;
+  background: rgba(174, 0, 0, 0.8);
+  text-shadow: none;
+  color: #fff;
+}
+
+img::selection {
+  background: transparent;
+  background: rgba(102, 167, 197, 0.5);
+}
+
+img::-moz-selection {
+  background: transparent;
+  background: rgba(102, 167, 197, 0.5);
+}
+
+.img_cell {
+  max-width: 100%;
+  height: auto;
+}
+
+
+figcaption {
+  color: #4d4d4d;
+  font-size: 14px;
+}
+
+figcaption b{
+  color: #000000;
+}
+
+figcaption i{
+  font-size: 16px;
+}
+
+.list {
+  list-style-type: circle;
+  width: 80%;
+  text-align: left;
+  margin: auto;
+  padding-bottom: 15px;
+  margin-top: -20px;
+}
