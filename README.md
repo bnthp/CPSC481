@@ -1,10 +1,10 @@
 ## CPSC481 Spring 2018 - Team One
 ### Project 1
-> * [Project 1 deliverable](https://soundeffect.github.io/CPSC481/project1 "Project 1 submission")
+> * <a href="https://soundeffect.github.io/CPSC481/project1" target="_blank" title="Project 1 submission">Project 1 deliverable</a>
 
 ### Project 2
-> * [G1 Calendar lo-fi prototype PDF](https://soundeffect.github.io/CPSC481/project2/cpsc481_mockup_final_final.pdf "Project 2 submission")
-> * [Lo-fi Presentation](https://docs.google.com/presentation/d/1SemA3AltB0vDnfNiirHedPjUQmIS1jleA4FMR_AbcIU/edit?usp=sharing "Project 2 presentation")
+> * <a href="https://soundeffect.github.io/CPSC481/project2/cpsc481_mockup_final_final.pdf" target="_blank" title="Project 2 submission">G1 Calendar lo-fi prototype PDF</a>
+> * <a href="https://docs.google.com/presentation/d/1SemA3AltB0vDnfNiirHedPjUQmIS1jleA4FMR_AbcIU/edit?usp=sharing" target="_blank" title="Project 2 presentation">Lo-fi Presentation</a>
 
 ### Assignment 3
-> * [UI Design Patterns](https://docs.google.com/presentation/d/1ml2QtP58nekjfr7XHQNd0wrzNgSjbsOIWDs4-iw4x20/edit?usp=sharing "A3: UI Design Patterns")
+> * <a href="https://docs.google.com/presentation/d/1ml2QtP58nekjfr7XHQNd0wrzNgSjbsOIWDs4-iw4x20/edit?usp=sharing" target="_blank" title="A3: UI Design Patterns">UI Design Patterns Presentation</a>
