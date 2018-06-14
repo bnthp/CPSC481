@@ -95,3 +95,6 @@ body {font-family: Verdana, sans-serif;}
 @media screen and (max-width: 290px) {
     .weekdays li, .days li {width: 12.2%;}
 }
+
+/* #sidenav-overlay { z-index: 1; } */
+.sidenav { z-index: 999; }
