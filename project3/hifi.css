@@ -118,9 +118,16 @@ body,html {font-family: Verdana, sans-serif; height: 100%;}
 
 .nav-groups > li {
   width: 100%;
-  /* text-align: center; */
-  display: inline-block; float: none
+  display: inline-block; float: none;
+  text-align:center important!;
+  padding: 0;
+
 }
+.nav-groups > li > a {
+  padding: 0;
+  padding-right: 0;
+}
+
 
 .nav-user {
   flex-grow: 1;
