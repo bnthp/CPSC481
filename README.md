@@ -13,3 +13,8 @@
 > * <a href="https://docs.google.com/presentation/d/161EYCS6AfcJ5vqrLZGPGh6hu2Q1RMnFn7i9hjh7mzFY/edit?usp=sharing" target="_blank" title="P3: Hi-Fi">Hi-fi Prototype Presentation</a>
 > * <a href="https://app.atomic.io/d/RUbVVYo71QEN" target="_blank" title="P3: Hi-Fi">atomic.io hi-fi prototype</a>
 > * <a href="https://soundeffect.github.io/CPSC481/project3" target="_blank" title="P3 heuristic evaluation">P3: Heuristic evaluation</a>
+
+### Project 4
+> * <a href="https://docs.google.com/presentation/d/1sBFQddb7hdmKVnZ84_rb59Dnh1dDq4Xp8X2EPK9kitA/edit?usp=sharing" target="_blank" title="P3: Hi-Fi">Hi-fi Prototype Presentation</a>
+> * <a href="https://app.atomic.io/d/fZNZluVO26hG" target="_blank" title="P3: Hi-Fi">atomic.io hi-fi prototype</a>
+> * <a href="https://soundeffect.github.io/CPSC481/project4" target="_blank" title="P4">P4: final report</a>
