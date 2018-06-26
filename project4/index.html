@@ -34,7 +34,7 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
       <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top">Home</a>
+        <!-- <a class="navbar-brand js-scroll-trigger" href="#page-top">Home</a> -->
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           Menu
           <i class="fa fa-bars"></i>
@@ -42,37 +42,31 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#about">About</a>
+              <a class="nav-link js-scroll-trigger" href="#page-top">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#q1">1</a>
+              <a class="nav-link js-scroll-trigger" href="#about">Summary</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#q2">2</a>
+              <a class="nav-link js-scroll-trigger" href="#q1">Design Problem</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#q3">3</a>
+              <a class="nav-link js-scroll-trigger" href="#q2">USER RESEARCH</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#q4">4</a>
+              <a class="nav-link js-scroll-trigger" href="#q3">DESIGN</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#q5">5</a>
+              <a class="nav-link js-scroll-trigger" href="#q4">HEURISTIC EVALUATION</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#q6">6</a>
+              <a class="nav-link js-scroll-trigger" href="#q5">USER TESTING</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#q7">7</a>
+              <a class="nav-link js-scroll-trigger" href="#q6">NEXT ITERATION</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#q8">8</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#q9">9</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#q10">10</a>
+              <a class="nav-link js-scroll-trigger" href="#q7">CONCLUSION</a>
             </li>
           </ul>
         </div>
@@ -86,7 +80,7 @@
           <div class="row">
             <div class="col-lg-8 mx-auto">
               <h1 class="brand-heading">G1 Calendar</h1>
-              <div class="intro-text">Final report, presentation, and high-fidelity prototype</div>
+              <div class="intro-text">Final report and and high-fidelity prototype</div>
               <!-- <a href="#about" class="btn btn-circle js-scroll-trigger">
                 <i class="fa fa-angle-double-down animated"></i> -->
               </a>
@@ -110,15 +104,22 @@
 
             </p>
 
-            <div style="text-align:center;">
-              The link to our high-fidelity prototype demonstrated in class:<br /><br />
-              <a href="https://app.atomic.io/d/RUbVVYo71QEN" target="_blank" class="btn btn-default btn-lg">G1 Calendar hi-fi prototype</a>
-            </div>
+            <p style="text-align:center;">
+              The link to our updated post-improvement high-fidelity prototype:<br /><br />
+              <a href="https://app.atomic.io/d/fZNZluVO26hG" target="_blank" class="btn btn-default btn-lg">G1 Calendar hi-fi prototype</a>
+              <br /><br />
+              The link to our presentation:<br /><br />
+              <a href="https://docs.google.com/presentation/d/1sBFQddb7hdmKVnZ84_rb59Dnh1dDq4Xp8X2EPK9kitA/edit?usp=sharing" target="_blank" class="btn btn-default btn-lg">P4: G1 Calendar presentation</a>
+            </p>
             <br /><br />
             <h2>Introduction</h2>
             <p>
               When you're trying to figure out a time that all your friends are free so you can plan a meetup, it can be difficult and annoying to get all their schedules and manually figure out the best time and day. Team One’s aim is to design a scheduling application that visually displays times people are “busy” so you can easily find out when people aren’t busy. You can then mark the schedule with that event so everyone in the group can see.
             </p>
+            <figure>
+              <img class="img_cell" src="img/intro.png" class="img_cell">
+              <figcaption><b>Figure 1.</b> Android app prototype for <b>G1 Calendar</b></figcaption>
+            </figure>
 
           </div>
         </div>
@@ -137,10 +138,6 @@
               <p>
                 When trying to get together with a group of friends, everyone in the group needs to know what are possible available times and then agree and communicate a decision once it is reached. This is typically done either through written text, which can be hard to visualize, or sharing a calendar, which can be cumbersome and inconvenient. Our design problem was to create a system which would allow people to share their availability in an intuitive way while also make it lightweight and most of all, convenient.
               </p>
-              <figure>
-                <img class="img_cell" src="img/fig 1.png" class="img_cell">
-                <figcaption>Figure 1. Top right corner has a <b>group icon <i class="fa fa-users" style="font-size:20px; padding: 0 3px 0 3px"></i></b> to indicate that the user is in the group calendar. This icon is a visual cue  used to distinguish between personal and group mode.</figcaption>
-              </figure>
         </div>
       </div>
     </section>
@@ -156,9 +153,19 @@
                 We performed user research through two forms of investigation, a broad survey, and a focused narrative observation. Through the 61 survey responses we received, we discovered ~85% of people are looking for an app like the one we wanted to build, ~77% of people tend to have one day events, and seldomly do people plan to get together with more than 5 people. The survey also yielded some information on what features people consider the most important when creating events. The narrative we performed focused on finding the key features people struggle with when using a conventional calendar app. By doing this, we could anticipate and avoid making the same mistakes that currently dissuade people from using calendar apps.
               </p>
               <figure>
-                <img class="img_cell" src="img/fig 2.png" class="img_cell">
-                <figcaption>Figure 2. <b>Pencil icon <i class="fa fa-pencil-alt" style="font-size:20px; padding: 0 3px 0 3px"></i></b>, <b>comment icon <i class="fas fa-comment-dots" style="font-size:20px; padding: 0 3px 0 3px"></i></b>
-                and <b>clock icon <i class="far fa-clock" style="font-size:20px; padding: 0 3px 0 3px"></i></b> are all examples of objects found in the real world.</figcaption>
+                <img class="img_cell" src="img/would you consider using a scheduling app.png" class="img_cell">
+                <figcaption><b>Figure 2.</b> Survey results of asking our participants if they would consider using a scheduling app for group usage.</figcaption>
+              </figure>
+              <br/><br/>
+              <figure>
+                <img class="img_cell" src="img/what events.png" class="img_cell">
+                <figcaption><b>Figure 3.</b> Survey results of asking our participants what events they would insert into their calendar. <br/>77% of the 61 participants tend to have one day events that they would put into their calendar.</figcaption>
+              </figure>
+              <br/><br/>
+              <figure>
+                <img class="img_cell" src="img/create event.png" class="img_cell">
+                <figcaption><b>Figure 4.</b> Survey results asking participants what features and event details they would like to see in a scheduling app.<br />
+                The top four results - "Name your event", "Event description", "Location", and "Have attendees list" - were taken into consideration, and implemented in the last prototype of the scheduling app.</figcaption>
               </figure>
         </div>
       </div>
@@ -175,9 +182,9 @@
               The design of our app focused on minimalism and ease of use. From our narrative observations we noticed that things like multiple menus and nested pages produced confusion and a poor user experience as users often did not select the correct menu of the first try. This led us to try to minimize the number of options presented to the user and keep the interface as clean as possible. Additionally because of the survey results that the vast majority had 5 or less people when getting together, we focused our friend and group management to accommodate actions done to a single person such as toggling their calendar on/off rather than things like adding/removing multiple people at once.
             </p>
             <figure>
-              <img class="img_cell" src="img/fig 3.png" class="img_cell">
-              <figcaption>Figure 3. The top left corner has the close button, represented by the icon <b><i class="fa fa-close" style="font-size:20px; padding: 0 3px 0 3px"></i></b>.
-              If the close button is tapped, a warning message is prompted asking if they want to cancel exiting the event creation window, or to proceed and close the window.</figcaption>
+              <img class="img_cell" src="img/group calendar w menu.png" class="img_cell">
+              <figcaption><b>Figure 5.</b> Screenshot from the last prototype for G1 Calendar. The menu is opened on what an example of a potential group. Each group member's name can be toggled to show just their busy calendar.
+              When a member's name is clicked, the calendar behind the menu is updated to show that member's busy calendar.</figcaption>
             </figure>
 
 
@@ -194,12 +201,13 @@
             <h1>Heuristic Evaluation and Findings</h1>
             <p>
               Our heuristic evaluation found we were successful where we had tried the hardest with “minimalist design” and “consistency and standards” being our best traits. We struggle however with “visibility of system status”, because the prototype is not particularly conducive to this, and “flexibility and efficiency of use”, mostly because the simplicity of the app allows few areas to introduce advanced user options. Apart from these we also noticed an issue with “help and documentation”, not because our system was complex and hard to use, but because we never provided the user with information on what the app was and how/why they should use it.
-  </p>
+            </p>
             <figure>
-              <img class="img_cell" src="img/fig 4.png" class="img_cell">
-              <figcaption>Figure 4. The "add friend" button is denoted by a plus icon <b><i class="fas fa-plus-square" style="font-size:20px; padding: 0 3px 0 3px"></i></b> which is a standardized icon used in this system to represent adding a friend, group or event.
-              The greyed out calendar is always visible when navigating the menu.</figcaption>
+              <img class="img_cell" src="img/user calendar w menu.png" class="img_cell">
+              <figcaption><b>Figure 6.</b> Screenshot from the last prototype for G1 Calendar, showcasing the "user" menu. Consistent icons were used throughout the prototype, such as the "user", "group", and "add" icons.
+              The "three vertical dots" icon was used for both user and group settings, an icon commonly found in other applications to represent opening smaller menus.</figcaption>
             </figure>
+
 
         </div>
       </div>
@@ -216,13 +224,71 @@
               Given the simplicity of the system there are only a few key places where error prevention is needed. It was implemented successfully during account creation by having it ask to retype the password to ensure no slips by the user. Less successful error prevention was present when canceling an event creation. Although it does produce a confirmation prompt when canceling, the prompt is poorly worded and hard to determine which button will cancel the event and which will allow continued editing.
             </p>
             <figure>
-              <img class="img_cell" src="img/fig 5.png" class="img_cell">
-              <figcaption>Figure 5. "Confirm password" input field prevents users from creating an account with a mistyped password.</figcaption>
+              <img class="img_cell" src="img/account creation.png" class="img_cell">
+              <figcaption><b>Figure 7.</b> Screenshot from the last prototype for G1 Calendar, showcasing the account creation page. To prevent slips from the user, a "confirm password" field (third field from the top) was implemented in the most recent version.</figcaption>
             </figure>
+            <br/><br/>
             <figure>
-              <img class="img_cell" src="img/fig 3.png" class="img_cell">
-              <figcaption>Figure 6. Same image as Figure 3. The prompt is poorly worded, and may lead the user to confusion when trying to determine which button will cancel the event. The button on the left says "No, cancel", which can mislead the user to click this button if they wish to cancel the event.</figcaption>
+              <img class="img_cell" src="https://soundeffect.github.io/CPSC481/project3/img/fig%203.png" class="img_cell">
+              <figcaption><b>Figure 8.</b> Screenshot from a previous prototype (P3) for G1 Calendar, displaying the event cancellation page with poorly-worded buttons. From our user testing, we found that the buttons caused confusion with users. This weakness was improved in the next prototype (as shown in Figure 9 below).</figcaption>
             </figure>
+            <br/><br/>
+            <figure>
+              <img class="img_cell" src="img/cancel event.png" class="img_cell">
+              <figcaption><b>Figure 9.</b> Screenshot from the last prototype for G1 Calendar, displaying the event cancellation page with improved clarity regarding the buttons.</figcaption>
+            </figure>
+
+            <br/><br/><br/><br/>
+            <h2>Highlights from usability testing</h2>
+            <p>Six users participated in the usability testing.</p>
+            <h3>Going through the tutorial</h3>
+
+            <p>
+            Users found that the wording in the tutorials was confusing, and should be restructured. The pictures are difficult to see as well, users with reduced eyesight found it very difficult because the images were full-sized screenshots, and the arrows pointing to objects of interest were blending in with the background of the screenshot.
+            </p>
+            <figure>
+              <img class="img_cell" src="img/old tutorial.png" class="img_cell">
+              <figcaption><b>Figure 10.</b> Screenshot of one of the tutorial pages that was used during the usability testing. The pictures are very small, and displaying outdated images from a previous prototype (P3). After the usability testing, the tutorials were updated to more recent images of the last prototype, and the wording was modified for clarity (as shown below in Figure 11)</figcaption>
+            </figure>
+            <br/><br/>
+            <figure>
+              <img class="img_cell" src="img/updated tutorial.png" class="img_cell">
+              <figcaption><b>Figure 11.</b> Screenshot from the new, improved tutorials. The tutorial now uses up-to-date images from the prototype, and the tutorial pages are less cluttered. The image is also zoomed in closer on the focused area to aid users with reduced eyesight.</figcaption>
+            </figure>
+
+
+            <br/><br/>
+            <h3>Adding people as friends and putting them into a group</h3>
+            <p>Adding a friend went well, some users needed explanation as to what the unique identifier was (name + unique generated number). Making a group was confusing because users were accustomed to the usage of the + button as adding an event. In the menu we use the same + button in a contextual block with the group images to imply that its used to add a group, this misinterpretation was generally fixed quickly.
+            </p>
+            <figure>
+              <img class="img_cell" src="img/add friend.png" class="img_cell">
+              <figcaption><b>Figure 12.</b> Screenshot from the prototype displaying the "add friend" functionality. The input field hint contains a sample user tag (unique identifier).</figcaption>
+            </figure>
+            <p>
+              Adding to a group lead almost every user to complain, the method used only allows to add 1 friend to a group at a time and required 2 clicks. You click a friend’s name and then click the add button that pops up. The add button was red so it made mot people initially think that, while in the screen, one would select all the friends they want to add to the group and that the red add button was a remove button used to change your mind about adding a friend (this was most prevalent for a visual impaired user). When removing a friend from a group users didn’t know what to do because they functionality was to swipe a friend in the group and then click the remove button, there possibly needs to be some indication of functionality added.
+            </p>
+
+            <br/><br/>
+            <h3>Setting up an event (for yourself and for a group)</h3>
+            <p>
+              When setting up a busy time in the individual calendar there weren’t many issues apart from the point that most people tried pressing the date on the screen instead of the + button used to add events. One individual tried looking within the menu for the functionality as well.
+            </p>
+
+            <p>
+When users moved to the group view to make an event for a group of people, they had more trouble because the two different calendar views look the same apart from the icon of a group of people at the top. People assumed that the calendar was still the individual one so they did not realize that the + button at the bottom was now to add a group event. Most people looked in the menu and eventually tried the + button after not being able to find anything, or were given an explanation and were surprised. This means that our method of identifying the individual and group calendars is not efficient enough, no one even noticed the change in the icon at the top of the screen because the change was minimal.
+            </p>
+            <figure>
+              <img class="img_cell" src="img/new header colour.png" class="img_cell">
+              <figcaption><b>Figure 12.</b> The top image shows the old heading colour we had for the group calendar page, which was the exact same as the user calendar header colour. After the usability testing, the group calendar header colour
+              was modified to a darker shade to help users differentiate better between the <b>user calendar</b> and <b>group calendar</b>.</figcaption>
+            </figure>
+
+            <p>
+              When describing the event in the event creation page some users had troubles remembering specific dates and said that it would be helpful to at lest see a small display of the calendar so they could remind themselves of relative dates, one user had to exit the event creation to double check when a specific date was.
+            </p><p>
+              When discarding an event, the popup asking whether "the user was sure" came up, and most users thought it was unnecessary since the functionality was simple enough to not merit the check.
+            </p>
 
         </div>
       </div>
@@ -235,14 +301,16 @@
           <div class="col-lg-8 mx-auto">
             <!-- <h1 class="question"><span>Question 1:</span></h1> -->
             <h1>Recommendations for Next Iteration of Design</h1>
-            <p>
-              As the app mostly revolves around one screen, little recollection is required. The group/personal calendar state is viewable in the top right, and the busy-ness of a day is recognizable by how <b>darkly shaded</b> the day is on the calendar.
-              Both these features  can be easily be recognized instead of opening other dialog windows to check. The only view that does requires recall is the event creation as it fill the entire screen preventing viewing of the calendar but requires information from the calendar to know when people are available.
+            <p style="text-align:center;">
+              The following is a list of functionality or improvements to add in the next iteration of design:
             </p>
-            <figure>
-              <img class="img_cell" src="img/header.png" class="img_cell">
-              <figcaption>Figure 7. The shaded boxes on the calendar indicates if there is an event on that day. The darker the shading indicates the more busy that day is.</figcaption>
-            </figure>
+            <ul class="list">
+              <li>Small clarity fixes (i.e. editing the wording to buttons, modifying menu information, adding more tool tips in the menu)</li>
+              <li>Notification settings (i.e. allowing the user to enable push notitications for an event)</li>
+              <li>User pictures (i.e. avatar for each user, user-uploaded group avatar, enable user-uploaded header images for events)</li>
+              <li>User messaging (i.e. a commenting system where users can leave comments on an event, instant messaging)</li>
+              <li>Adding a calendar module in the event creation page when selecting dates. The current prototype only allows entering the date/time with keyboard input.</li>
+            </ul>
 
         </div>
       </div>
@@ -259,10 +327,6 @@
               From the feedback of user testing, the app development thus far has been successful, but still requires further refinement. The core features and designs implemented have produced the desired user-flow and show our investigation was successful with no need to return to the ideation phase at this point. The minor details however could be changed to produce a better user experience and likely one or two more prototype phases are needed to address layout issues and clerical errors. The app in its current state solves the design issue we had aimed for and we believe we both built the right thing, and built the thing right, but as with most products there is always room for improvement.
 
             </p>
-            <figure>
-              <img class="img_cell" src="img/fig 8.png" class="img_cell">
-              <figcaption>Figure 8. To make the login system more efficient, implementing a "remember username/password" option would allow the user to access the calendar faster. Currently, there is no such feature implemented.</figcaption>
-            </figure>
 
         </div>
       </div>

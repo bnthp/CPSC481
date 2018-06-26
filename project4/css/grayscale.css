@@ -79,7 +79,7 @@ a:focus, a:hover {
   margin-bottom: 0;
   text-transform: uppercase;
   /* border-bottom: 1px solid rgba(255, 255, 255, 0.3); */
-  background-color: #60C99D !important;
+  background-color: #84dcc6 !important;
 }
 
 #mainNav .navbar-toggler {
@@ -101,12 +101,19 @@ a:focus, a:hover {
   -webkit-transition: background 0.3s ease-in-out;
   -moz-transition: background 0.3s ease-in-out;
   transition: background 0.3s ease-in-out;
+
+
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
 #mainNav .navbar-nav .nav-item:hover {
   color: fade(white, 80%);
   outline: none;
-  background-color: #37745b;
+  /* background-color: #37745b; */
+  background-color: #ff6b6b;
 }
 
 #mainNav .navbar-nav .nav-item:active, #mainNav .navbar-nav .nav-item:focus {
@@ -137,7 +144,8 @@ a:focus, a:hover {
   }
   #mainNav .nav-link.active {
     outline: none;
-    background-color: rgba(255, 255, 255, 0.3);
+    /* background-color: rgba(255, 255, 255, 0.3); */
+    background-color: #51b89f;
   }
   #mainNav .nav-link.active:hover {
     color: white;
@@ -151,9 +159,9 @@ a:focus, a:hover {
   padding: 200px 0;
   text-align: center;
   color: #000;
-  background: url("../img/header.png") no-repeat bottom 20px center scroll;
+  background: url("../img/header.png") no-repeat bottom 10px center scroll;
   /* background-position: bottom; */
-  background-color: #60C99D;
+  background-color: #84dcc6;
   /* -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -167,16 +175,17 @@ a:focus, a:hover {
 
 .masthead .intro-body .brand-heading {
   font-size: 50px;
-  background-color: #60C99D;
-  background: rgba(96, 201, 157, 0.75);
+  background-color: #84dcc6;
+  background: rgba(132, 220, 198, 0.75);
 }
 
 .masthead .intro-body .intro-text {
   font-size: 18px;
   font-family: 'Lato', sans-serif;
   font-weight: normal;
-  background-color: #60C99D;
-  background: rgba(96, 201, 157, 0.75);
+  background-color: #84dcc6;
+  background: rgba(132, 220, 198, 0.75);
+  color: #416d62;
 }
 
 @media (min-width: 768px) {
@@ -263,16 +272,16 @@ a:focus, a:hover {
 }
 
 .btn-default {
-  color: #ae0000;
-  border: 1px solid #ae0000;
+  color: #e71d36;
+  border: 1px solid #e71d36;
   background-color: transparent;
 }
 
 .btn-default:focus, .btn-default:hover {
   color: #fff;
-  border: 1px solid #ae0000;
+  border: 1px solid #e71d36;
   outline: none;
-  background-color: #ae0000;
+  background-color: #e71d36;
 }
 
 .btn-small {
@@ -361,4 +370,19 @@ ol {
   margin: auto;
   padding-bottom: 15px;
   margin-top: -20px;
+}
+
+.list {
+  list-style-type: circle;
+  width: 80%;
+  text-align: left;
+  margin: auto;
+  padding-bottom: 15px;
+  margin-top: -20px;
+}
+
+li {
+
+  margin-top: 15px;
+  /* margin-bottom: 5px; */
 }
