@@ -1,6 +1,6 @@
 ## CPSC481 Spring 2018 - Team One
 ### Project 1
-> * <a href="https://bntthp.github.io/CPSC481/project1" target="_blank" title="Project 1 submission">Project 1 deliverable</a>
+> * <a href="https://bnthp.github.io/CPSC481/project1" target="_blank" title="Project 1 submission">Project 1 deliverable</a>
 
 ### Project 2
 > * <a href="https://bnthp.github.io/CPSC481/project2/cpsc481_mockup_final_final.pdf" target="_blank" title="Project 2 submission">G1 Calendar lo-fi prototype PDF</a>
