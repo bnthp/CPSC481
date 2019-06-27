@@ -1,10 +1,12 @@
 # G1 Calendar
 A group scheduling application prototype
-<p style="text-align: center">
-  <img src="https://raw.githubusercontent.com/bnthp/CPSC481/master/project4/img/header.png"><br />
-  CPSC481 Spring 2018 - Team One
-</p>
-Please check out the [final report deliverable](https://bnthp.github.io/CPSC481/project4) to read about our high-fidelity prototype.
+
+![alt text](https://raw.githubusercontent.com/bnthp/CPSC481/master/project4/img/header.png "G1 Calendar")
+CPSC481 Spring 2018 - Team One
+
+
+Please check out the [final report deliverable here](https://bnthp.github.io/CPSC481/project4) to read about our high-fidelity prototype.
+
 
 ### Project 1
 > * <a href="https://bnthp.github.io/CPSC481/project1" target="_blank" title="Project 1 submission">Project 1 deliverable (website)</a>
