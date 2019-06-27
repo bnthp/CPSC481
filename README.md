@@ -2,6 +2,8 @@
 A group scheduling application prototype
 
 ![alt text](https://raw.githubusercontent.com/bnthp/CPSC481/master/project4/img/header.png "G1 Calendar")
+
+
 CPSC481 Spring 2018 - Team One
 
 
